@@ -7,7 +7,7 @@ export default {
         if(!Token){
             return next('/')
         }else{
-            return next('/')
+            return next()
         }
         
     }
